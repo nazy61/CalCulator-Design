@@ -1,0 +1,2 @@
+rootProject.name='Fellowship4.0 App'
+include ':app'
