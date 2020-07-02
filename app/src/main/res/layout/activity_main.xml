@@ -12,14 +12,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#C8C5C5"
+        android:background="#363636"
         android:layout_weight="1">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="0.0"
-            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
             android:layout_margin="10dp"
             android:gravity="bottom|right"
             android:layout_gravity="bottom|right"/>
@@ -32,112 +33,135 @@
         android:orientation="vertical"
         android:layout_weight="2">
 
-        <RelativeLayout
+        <LinearLayout
+            android:backgroundTint="#ffbcbc"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#fff"
             android:layout_weight="1">
 
             <Button
+                android:backgroundTint="#ffbcbc"
                 android:id="@+id/ac"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="AC"/>
 
             <Button
                 android:id="@+id/slh"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/ac"
+                android:backgroundTint="#ffbcbc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="*/-"/>
 
             <Button
                 android:id="@+id/mod"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/slh"
+                android:backgroundTint="#ffbcbc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="%"/>
 
             <Button
                 android:id="@+id/div"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/mod"
+                android:backgroundTint="#ffbcbc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="*/-"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
+            android:backgroundTint="#99d8d0"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#EC8888"
+            android:background="#fff"
             android:layout_weight="1">
 
             <Button
                 android:id="@+id/seven"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:backgroundTint="#99d8d0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="7"/>
 
             <Button
                 android:id="@+id/eight"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/seven"
+                android:backgroundTint="#99d8d0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="8"/>
 
             <Button
                 android:id="@+id/nine"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/eight"
+                android:backgroundTint="#99d8d0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="9"/>
 
             <Button
                 android:id="@+id/mult"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/nine"
+                android:backgroundTint="#99d8d0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="X"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
+            android:backgroundTint="#b7efcd"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#2196F3"
+            android:background="#fff"
             android:layout_weight="1">
 
             <Button
                 android:id="@+id/four"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7"/>
+                android:backgroundTint="#b7efcd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"/>
 
             <Button
                 android:id="@+id/five"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/four"
-                android:text="8"/>
+                android:backgroundTint="#b7efcd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"/>
 
             <Button
                 android:id="@+id/six"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/five"
-                android:text="9"/>
+                android:backgroundTint="#b7efcd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6"/>
 
             <Button
                 android:id="@+id/minus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/six"
+                android:backgroundTint="#b7efcd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="-"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
+            android:backgroundTint="#feceab"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#fff"
@@ -145,67 +169,79 @@
 
             <Button
                 android:id="@+id/one"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7"/>
+                android:backgroundTint="#feceab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"/>
 
             <Button
                 android:id="@+id/two"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/one"
-                android:text="8"/>
+                android:backgroundTint="#feceab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"/>
 
             <Button
                 android:id="@+id/three"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/two"
-                android:text="9"/>
+                android:backgroundTint="#feceab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"/>
 
             <Button
                 android:id="@+id/plus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/three"
-                android:text="X"/>
+                android:backgroundTint="#feceab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
+            android:backgroundTint="#fa7d09"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#CDDC39"
+            android:background="#fff"
             android:layout_weight="1">
 
             <Button
                 android:id="@+id/zero"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7"/>
+                android:backgroundTint="#fa7d09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"/>
 
             <Button
                 android:id="@+id/blnk"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/zero"
+                android:backgroundTint="#fa7d09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text=""/>
 
             <Button
                 android:id="@+id/dot"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/blnk"
+                android:backgroundTint="#fa7d09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="."/>
 
             <Button
                 android:id="@+id/equal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toEndOf="@+id/dot"
+                android:backgroundTint="#fa7d09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="="/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
 
     </LinearLayout>
