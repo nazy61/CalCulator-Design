@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,234 +11,272 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#363636"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="#363636">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0.0"
-            android:textColor="#ffffff"
-            android:textSize="45sp"
+            android:layout_gravity="bottom|right"
             android:layout_margin="10dp"
             android:gravity="bottom|right"
-            android:layout_gravity="bottom|right"/>
+            android:text="0.0"
+            android:textColor="#ffffff"
+            android:textSize="45sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="vertical"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:backgroundTint="#ffbcbc"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#fff"
-            android:layout_weight="1">
+            android:backgroundTint="#ffbcbc"
+            android:orientation="horizontal">
 
             <Button
-                android:backgroundTint="#ffbcbc"
                 android:id="@+id/ac"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="AC"/>
+                android:textSize="25sp"
+                android:backgroundTint="#ffbcbc"
+                android:stateListAnimator="@null"
+                android:text="AC" />
 
             <Button
                 android:id="@+id/slh"
-                android:backgroundTint="#ffbcbc"
                 android:layout_width="0dp"
+                android:textSize="25sp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="*/-"/>
+                android:backgroundTint="#ffbcbc"
+                android:stateListAnimator="@null"
+                android:text="*/-" />
 
             <Button
                 android:id="@+id/mod"
-                android:backgroundTint="#ffbcbc"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="%"/>
+                android:textSize="25sp"
+                android:backgroundTint="#ffbcbc"
+                android:stateListAnimator="@null"
+                android:text="%" />
 
             <Button
                 android:id="@+id/div"
-                android:backgroundTint="#ffbcbc"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="*/-"/>
+                android:textSize="25sp"
+                android:backgroundTint="#ffbcbc"
+                android:stateListAnimator="@null"
+                android:text="*/-" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:backgroundTint="#99d8d0"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#fff"
-            android:layout_weight="1">
+            android:backgroundTint="#99d8d0"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/seven"
-                android:backgroundTint="#99d8d0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="7"/>
+                android:textSize="25sp"
+                android:backgroundTint="#99d8d0"
+                android:stateListAnimator="@null"
+                android:text="7" />
 
             <Button
                 android:id="@+id/eight"
-                android:backgroundTint="#99d8d0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="8"/>
+                android:textSize="25sp"
+                android:backgroundTint="#99d8d0"
+                android:stateListAnimator="@null"
+                android:text="8" />
 
             <Button
                 android:id="@+id/nine"
-                android:backgroundTint="#99d8d0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="9"/>
+                android:textSize="25sp"
+                android:backgroundTint="#99d8d0"
+                android:stateListAnimator="@null"
+                android:text="9" />
 
             <Button
                 android:id="@+id/mult"
-                android:backgroundTint="#99d8d0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="X"/>
+                android:textSize="25sp"
+                android:backgroundTint="#99d8d0"
+                android:stateListAnimator="@null"
+                android:text="X" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:backgroundTint="#b7efcd"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#fff"
-            android:layout_weight="1">
+            android:backgroundTint="#b7efcd"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/four"
-                android:backgroundTint="#b7efcd"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="4"/>
+                android:textSize="25sp"
+                android:backgroundTint="#b7efcd"
+                android:stateListAnimator="@null"
+                android:text="4" />
 
             <Button
                 android:id="@+id/five"
-                android:backgroundTint="#b7efcd"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="5"/>
+                android:textSize="25sp"
+                android:backgroundTint="#b7efcd"
+                android:stateListAnimator="@null"
+                android:text="5" />
 
             <Button
                 android:id="@+id/six"
-                android:backgroundTint="#b7efcd"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="6"/>
+                android:textSize="25sp"
+                android:backgroundTint="#b7efcd"
+                android:stateListAnimator="@null"
+                android:text="6" />
 
             <Button
                 android:id="@+id/minus"
-                android:backgroundTint="#b7efcd"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="-"/>
+                android:textSize="25sp"
+                android:backgroundTint="#b7efcd"
+                android:stateListAnimator="@null"
+                android:text="-" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:backgroundTint="#feceab"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#fff"
-            android:layout_weight="1">
+            android:backgroundTint="#feceab"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/one"
-                android:backgroundTint="#feceab"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="1"/>
+                android:textSize="25sp"
+                android:backgroundTint="#feceab"
+                android:stateListAnimator="@null"
+                android:text="1" />
 
             <Button
                 android:id="@+id/two"
-                android:backgroundTint="#feceab"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="2"/>
+                android:textSize="25sp"
+                android:backgroundTint="#feceab"
+                android:stateListAnimator="@null"
+                android:text="2" />
 
             <Button
                 android:id="@+id/three"
-                android:backgroundTint="#feceab"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="3"/>
+                android:textSize="25sp"
+                android:backgroundTint="#feceab"
+                android:stateListAnimator="@null"
+                android:text="3" />
 
             <Button
                 android:id="@+id/plus"
-                android:backgroundTint="#feceab"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="+"/>
+                android:textSize="25sp"
+                android:backgroundTint="#feceab"
+                android:stateListAnimator="@null"
+                android:text="+" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:backgroundTint="#fa7d09"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="#fff"
-            android:layout_weight="1">
+            android:backgroundTint="#fa7d09"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/zero"
-                android:backgroundTint="#fa7d09"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="0"/>
-
-            <Button
-                android:id="@+id/blnk"
+                android:textSize="25sp"
                 android:backgroundTint="#fa7d09"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text=""/>
+                android:stateListAnimator="@null"
+                android:text="." />
 
             <Button
                 android:id="@+id/dot"
-                android:backgroundTint="#fa7d09"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="."/>
+                android:textSize="25sp"
+                android:backgroundTint="#fa7d09"
+                android:stateListAnimator="@null"
+                android:text="0" />
+
+            <ImageButton
+                android:id="@+id/blnk"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#fa7d09"
+                android:src="@drawable/ic_baseline_backspace_24" />
 
             <Button
                 android:id="@+id/equal"
-                android:backgroundTint="#fa7d09"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="="/>
+                android:textSize="25sp"
+                android:backgroundTint="#fa7d09"
+                android:stateListAnimator="@null"
+                android:text="=" />
 
         </LinearLayout>
 
